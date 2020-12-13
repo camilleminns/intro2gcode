@@ -1,0 +1,155 @@
+html {
+  text-align: center;
+}
+body {
+  background: linear-gradient(to bottom, #FFCCFF 0%, #FF5050 100%);
+}
+#darkModeButton {
+  font-family: 'Raleway';
+  background: darkgray;
+  border-radius: 5px;
+}
+#lightModeButton {
+  font-family: 'Raleway';
+  border-radius: 5px;
+}
+
+#header {
+  font-size: 44px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10pt;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-style: italic;
+	font-size: 16pt;
+	color: #000;
+  margin-top: 10px;
+}
+
+ul {
+  width: 550px;
+  list-style-position: inside;
+  margin: 0 auto 0 auto;
+}
+
+img {
+  border: 5px solid purple;
+  border-radius: 50%
+}
+#about {
+	width: 80%;
+	margin: 50pt 80pt;
+	/*font-family: "Georgia",*/ sans-serif;
+
+}
+
+#professional {
+  border: 5px groove silver;
+  border-radius: 5%;
+  margin: 0 375px 0;
+  padding: 0 25px 50px 25px;
+  flex-direction: row; 
+}
+
+#professional h2 {
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  font-weight: bold;
+}
+
+/*Navigation Bar*/
+  
+ul {
+  text-align:center;
+  margin: 20px;
+  margin-top: 2px;
+}
+
+ul#nav li {
+  font-family: 'Raleway';
+  padding-right: 5px; 
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+  
+}
+#nav a {
+  text-decoration: none;
+  color:black;
+}
+nav {
+  display: flex;
+  align-items: stretch;
+}
+#nav {
+  flex: 1pt;
+  justify-content: space-between;
+}
+/*About*/
+#about p {
+  line-height: 2rem;
+}
+
+/*Quotes*/
+h5 {
+  text-transform:uppercase;
+  text-decoration:underline;
+}
+.container .backend {
+  width: 60%;
+	padding: 20px;
+	background-color: #eee;
+	margin: 10pt auto;
+}
+.container .challenge {
+  width: 60%;
+	padding: 20px;
+	background-color: #eee;
+	margin: 10pt auto;
+  margin-right:5pt;
+  margin-left: 5pt;
+}
+.container .mentors {
+  width: 60%;
+	padding: 20px;
+	background-color: #eee;
+	margin: 10pt auto;
+}
+
+/* Footer */ 
+#contact {
+    text-align: center;
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: bolder;
+} 
+
+footer a {
+  color: black;
+  text-align: center;
+  padding-right: 5px;
+}
+
+footer {
+  font-family: Helvetica;
+  font-weight:bold;
+  color:white;
+}
+#linkedin {
+  border-right: 2px solid black;
+}
+.flex {
+  display: flex; 
+  justify-content: center;
+  flex-direction: row;
+}
